@@ -44,38 +44,30 @@ will just appear
 there is no wrapping on screens where the menu items are inline. THIS
 NUMBER MUST BE THE EXACT NUMBER OF ITEMS IN THE TOP MENU.
 
-<nav class="menu">
-<div class="menu-header"><span
-class="fa">&#xf0c9;</span>Menu</div>
-<ul class="main-menu list-unstyled">
-<li><a href="#style">Styles</a></li>
-<li><a href="#grid">Grid</a></li>
-<li class="subMenu" data-trigger = "submenu"><a
-href="#">CSS Components<span class="fa">&#xf150;</span></a>
-<ul class="list-unstyled">
-<li class="table-unstyled" data-trigger =
-"submenu"><a  href="#filters">Image Filters</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#video">Responsive Video</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#footer">Sticky Footer</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#hero">Hero Image</a></li>
-</ul>
-</li>
-
-<li class="subMenu" data-trigger = "submenu"><a
-href="">jQuery Plugins<span class="fa">&#xf150;</span></a>
-<ul class="list-unstyled">
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#">Menu</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#">Tooltips</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#sticky">Sticky Element</a></li>
-<li class="table-unstyled" data-trigger =
-"submenu"><a href="#height">Height Adjust</a></li>
-</ul>
-</li>
-</ul>
-</nav>
+<pre class="codesnippet">
+  
+ &lt;nav class="menu"&gt;
+     &lt;div class="menu-header"&gt;
+         &lt;span class="fa"&gt;&#xf0c9;&lt;/span&gt;Menu
+    &lt;/div&gt;
+     &lt;ul class="main-menu"&gt;
+             &lt;li&gt; &lt;a href="#"&gt;Item 1 &lt;/a&gt; &lt;/li&gt;
+             &lt;li&gt; &lt;a href="#"&gt;Item 2 &lt;/a&gt; &lt;/li&gt;
+             &lt;li class="subMenu" data-trigger="submenu"&gt;
+             &lt;a href="#"&gt;Item 3  &lt;span class="fa"&gt;&#xf150; &lt;/span&gt; &lt;/a&gt;
+                     &lt;ul&gt;
+         &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 1 &lt;/a&gt; &lt;/li&gt;
+         &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 2 &lt;/a&gt; &lt;/li&gt;
+                     &lt;/ul&gt;
+         &lt;/li&gt;
+                 &lt;li&gt; &lt;a href="#"&gt;Item 4 &lt;/a&gt; &lt;/li&gt;
+                 &lt;li class="subMenu" data-trigger="submenu"&gt; 
+				 &lt;a href=""&gt;Item 5&lt;span class="fa"&gt;&#xf150; &lt;/span&gt; &lt;/a&gt;
+                     &lt;ul&gt;
+                         &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 1 &lt;/a&gt; &lt;/li&gt;
+                         &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 2 &lt;/a&gt; &lt;/li&gt;
+                     &lt;/ul&gt;
+                 &lt;/li&gt;
+             &lt;/ul&gt;
+         &lt;/nav&gt;
+                    </pre>
