@@ -1,4 +1,12 @@
-<h3>To create an navigation menu, you need to do the following:</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+      <section class="frost">
+    <h3>To create an navigation menu, you need to do the following:</h3>
     <ol>
        <li>Add the “menu” class to your &lt;nav&gt; tag (or div)</li>
        <li>The “menu-header” class must then be added to the first child
@@ -66,3 +74,7 @@
           &lt;/ul&gt;
       &lt;/nav&gt;
     </pre>
+</section>
+</body>
+</html>
+ 
