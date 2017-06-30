@@ -29,28 +29,55 @@ Code Example
 
 Code Example
 
+<pre class="codesnippet">  
 
-<nav class="menu">
-    <div class="menu-header">
-        <span class="fa"></span>Menu
-    </div>
-    <ul class="main-menu">
-        <li> <a href="#">Item 1 </a> </li>
-        <li> <a href="#">Item 2 </a> </li>
-        <li class="subMenu" data-trigger="submenu">
-            <a href="#">Item 3 <span class="fa"> </span> </a>
-                <ul>
-                    <li data-trigger="submenu"> <a href="#">SubItem 1 </a> </li>
-                    <li data-trigger="submenu"> <a href="#">SubItem 2 </a> </li>
-                </ul>
-        </li>
-        <li> <a href="#">Item 4 </a> </li>
-        <li class="subMenu" data-trigger="submenu"> 
-        <a href="">Item 5<span class="fa"> </span> </a>
-            <ul>
-                <li data-trigger="submenu"> <a href="#">SubItem 1 </a> </li>
-                <li data-trigger="submenu"> <a href="#">SubItem 2 </a> </li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+      &lt;nav class="menu"&gt;
+
+          &lt;div class="menu-header"&gt;
+
+              &lt;span class="fa"&gt;&lt;/span&gt;Menu
+
+         &lt;/div&gt;
+
+          &lt;ul class="main-menu"&gt;
+
+                  &lt;li&gt; &lt;a href="#"&gt;Item 1 &lt;/a&gt; &lt;/li&gt;
+
+                  &lt;li&gt; &lt;a href="#"&gt;Item 2 &lt;/a&gt; &lt;/li&gt;
+
+                  &lt;li class="subMenu" data-trigger="submenu"&gt;
+
+                      &lt;a href="#"&gt;Item 3 &lt;span class="fa"&gt; &lt;/span&gt; &lt;/a&gt;
+
+                          &lt;ul&gt;
+
+                              &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 1 &lt;/a&gt; &lt;/li&gt;
+
+                              &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 2 &lt;/a&gt; &lt;/li&gt;
+
+                          &lt;/ul&gt;
+
+                  &lt;/li&gt;
+
+                  &lt;li&gt; &lt;a href="#"&gt;Item 4 &lt;/a&gt; &lt;/li&gt;
+
+                  &lt;li class="subMenu" data-trigger="submenu"&gt; 
+
+                      &lt;a href=""&gt;Item 5&lt;span class="fa"&gt; &lt;/span&gt; &lt;/a&gt;
+
+                          &lt;ul&gt;
+
+                              &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 1 &lt;/a&gt; &lt;/li&gt;
+
+                              &lt;li data-trigger="submenu"&gt; &lt;a href="#"&gt;SubItem 2 &lt;/a&gt; &lt;/li&gt;
+
+                          &lt;/ul&gt;
+
+                  &lt;/li&gt;
+
+          &lt;/ul&gt;
+
+      &lt;/nav&gt;
+
+    </pre>
+
