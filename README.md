@@ -1,89 +1,31 @@
+To create an navigation menu, you need to do the following:
 
-<html>
+Add the “menu” class to your <nav> tag (or div)
+The “menu-header” class must then be added to the first child (or other block tag). This will be the hamburger menu for cellphone and tablets
+The “main-menu” class needs to be attached to the first (parent) tag
+All tags must also include the “list-unstyled” class If you have a submenu, add this code to the parent of the submenu:
 
-<h3>To create an navigation menu, you need to do the following:</h3>
+class=“subMenu" data-trigger = "submenu”
+data-trigger = "submenu” and the class "table-unstyled" must be added to each child of the submenu.
+The custom caret for a dropdown menu is: . This is an optional icon and can be substituted with a standard caret. If the caret is wrapped in a tag, the formatting will still be applied, the “fa” class is for the icon only.
+Classes:
 
-    <ol>
+menu
+menu-header
+fa (icon)
+submenu
+Data
 
-       <li>Add the “menu” class to your &lt;nav&gt; tag (or div)</li>
+data-trigger = "submenu"
 
-       <li>The “menu-header” class must then be added to the first child
+Options
 
-            (or other block tag). This will be the hamburger menu for cellphone and
-
-            tablets
-
-        </li>
-
-        <li>The “main-menu” class needs to be attached to the first (parent) tag</li>
-
-    </ol>
-
-       <h3> All tags must also include the “list-unstyled” class If you have a submenu, add this code to the parent of the submenu:</h3>
-
-                   <ol>
-
-                        <li>class=“subMenu" data-trigger = "submenu”</li>
-
-                         <li>data-trigger = "submenu” and the class "table-unstyled" must be added to each child of the submenu.</li>
-
-                         <li>
-
-                             The custom caret for a dropdown menu is: <span class="fa"></span>. This is an optional icon and can be substituted with a standard caret. If the caret is wrapped in a tag, the formatting will still be applied, the “fa” class is for the icon only.
-
-                         </li>
-
-                    </ol>
-
-                     <h4>Classes:</h4>
-
-                    <ul>
-
-                         <li>menu</li>
-
-                         <li>menu-header</li>
-
-                         <li>fa (icon)</li>
-
-                         <li>submenu</li>
-
-                     </ul>
-
-                     
-
-                     <h4>Data</h4>
-
-                     <p>data-trigger = "submenu"</p>
-
-                     
-
-                     <h4>Options</h4>
-
-                     <ul>
-
-                        <li>settings.backgroundColor - Background color of the menu plugin</li>
-
-                        <li>settings.highlightColor - Highlight color for hover state on computer screens</li>
-
-                        <li>settings.submenuColor - Color of submenu on mobile and tablets in profile mode</li>
-
-                        <li>
-
-                            settings.toggleSpeed - Speed in milliseconds of how fast the menu slides. A “0” value will deactivate the slide animation and the submenu will just appear.
-
-                        </li>
-
-                        <li>
-
-                            settings.menuNumber - The number of top menu links. This will ensure there is no wrapping on screens where the menu items are inline. <strong>THIS NUMBER MUST BE THE EXACT NUMBER OF ITEMS IN THE TOP MENU!</strong>
-
-                        </li>
-
-                    </ul>
-
-    
-
-    <h3>Code Example</h3> 
+settings.backgroundColor - Background color of the menu plugin
+settings.highlightColor - Highlight color for hover state on computer screens
+settings.submenuColor - Color of submenu on mobile and tablets in profile mode
+settings.toggleSpeed - Speed in milliseconds of how fast the menu slides. A “0” value will deactivate the slide animation and the submenu will just appear.
+settings.menuNumber - The number of top menu links. This will ensure there is no wrapping on screens where the menu items are inline. THIS NUMBER MUST BE THE EXACT NUMBER OF ITEMS IN THE TOP MENU!
+Code Example
 
     <pre class="codesnippet">  
 
@@ -136,5 +78,3 @@
       &lt;/nav&gt;
 
     </pre>
-
-</html>
