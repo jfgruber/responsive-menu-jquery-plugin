@@ -45,6 +45,7 @@ footer {padding: 2rem;}
 
     .main-menu {
        display: none;
+       margin-left: -35px;
     }
 
     .main-menu li a{
@@ -55,7 +56,7 @@ footer {padding: 2rem;}
         font-weight: 800;
         font-size: 1.4rem;
         text-decoration: none;
-        padding: .4em .5em;
+        padding: .8em .1em;
         border-bottom: thin solid white;
     }
 
